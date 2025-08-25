@@ -86,6 +86,7 @@ on:
 #   - cron: 35 18 * * *
 
 env:
+  FEEDS_CONF: feeds.conf.default
   GIT_REPOSITORY: ${{github.repository}}
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
   PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
